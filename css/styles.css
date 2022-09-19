@@ -80,7 +80,6 @@ img {
 
 .logo-header-formatting {
   margin-right: 93px;
-  padding-top: 24px;
 }
 
 .logo-header {
@@ -612,6 +611,10 @@ img {
 .team-flex {
   display: flex;
   justify-content: space-between;
+}
+
+.nav-flex{
+  align-items: center;
 }
 
 .button-flex {
