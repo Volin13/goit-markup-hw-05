@@ -67,10 +67,22 @@
       <section class="hero-section">
         <div class="hero-div container">
           <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
-
-          <button type="button" class="button">Замовити послугу</button>
+          <button data-modal-open type="button" class="button">Замовити послугу</button>
         </div>
       </section>
+
+      <!-- modal -->
+
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal-box">
+          <button data-modal-close type="button" class="crosses-icon">
+            <svg width="18" height="18">
+              <use href="./images/sprite.svg#icon-croses"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+
       <!-- benefits -->
       <section>
         <div class="container">
@@ -141,33 +153,48 @@
       <!-- our occupations -->
       <section class="section">
         <div class="container">
-          <h2 class="seaction-title occupation-title-formatting">
+          <h2 class="seaction-title">
             Чим ми займаємося
           </h2>
           <ul class="images-flex">
             <li>
-              <img
+              <div class="thumb">
+                <img
                 src="./images/box-backend.jpg"
                 alt="людина набирає код"
                 width="370"
                 height="294"
               />
+              <div class="occupation-description">
+                <h3>Десктопні додатки</h3>
+              </div>
+              </div>
             </li>
             <li>
+              <div class="thumb">
               <img
                 src="./images/box-structure.jpg"
                 alt="жінка тримає телефон"
                 width="370"
                 height="294"
               />
+              <div class="occupation-description">
+                <h3>Мобільні додатки</h3>
+              </div>
+              </div>
             </li>
             <li>
+              <div class="thumb">
               <img
                 src="./images/box-design.jpg"
                 alt="людина обирає колір на планшеті"
                 width="370"
                 height="294"
               />
+              <div class="occupation-description">
+                <h3>Дизайнерські рішення</h3>
+              </div>
+              </div>
             </li>
           </ul>
         </div>
@@ -488,5 +515,7 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
+</body>
   </body>
 </html>
