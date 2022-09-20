@@ -210,7 +210,7 @@ img {
   font-family: inherit;
   display: inline-block;
 
-  transition-property: background-color;
+  transition-property: background;
   transition-duration:  250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -496,7 +496,7 @@ img {
   cursor: pointer;
   fill: var(--primary-white-color);
 
-  transition-property: background-color;
+  transition-property: background;
   transition-property: fill;
   transition-duration:  250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
