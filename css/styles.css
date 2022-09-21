@@ -98,7 +98,7 @@ img {
   padding-bottom: 25px;
 
   transition-property: color;
-  transition-duration:  250ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -118,7 +118,7 @@ img {
   fill: currentColor;
 
   transition-property: fill;
-  transition-duration:  250ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -135,18 +135,17 @@ img {
 .auth-nav-footer:focus,
 .auth-nav:focus,
 .address:hover,
-.address:focus
-{
+.address:focus {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
 
-.nav-li{
+.nav-li {
   position: relative;
 }
 
-.current::after{
-  content:"";
+.current::after {
+  content: "";
   display: inline-block;
   height: 4px;
   width: 100%;
@@ -212,7 +211,7 @@ img {
   display: inline-block;
 
   transition-property: background;
-  transition-duration:  250ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -233,16 +232,17 @@ img {
   background-color: var(--backdrop-color);
   opacity: 1;
 
-  transition: opacity 450ms cubic-bezier(0.4, 0, 0.2, 1), visibility 450ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 450ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 450ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.is-hidden{
+.is-hidden {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
 }
 
-.modal-box{
+.modal-box {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -250,12 +250,13 @@ img {
   width: 528px;
   min-height: 581px;
   background-color: var(--primary-white-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 8px;
 }
 
-.crosses-icon{
+.crosses-icon {
   background-color: var(--primary-white-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50px;
@@ -316,7 +317,7 @@ img {
 
 /* our occupations */
 
-.occupation-description{
+.occupation-description {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -329,7 +330,7 @@ img {
   align-items: center;
 }
 
-.occupation-description h3{
+.occupation-description h3 {
   line-height: 1.14;
   font-size: 14px;
   text-transform: uppercase;
@@ -379,7 +380,9 @@ img {
   fill: var(--icon-color);
   background-color: transparent;
 
-  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-sm-area:hover,
@@ -428,7 +431,8 @@ img {
   padding: 16px 32px;
   fill: var(--icon-color);
 
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-area:hover,
@@ -458,7 +462,7 @@ img {
   letter-spacing: inherit;
 
   transition-property: color;
-  transition-duration:  250ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -489,8 +493,9 @@ img {
   cursor: pointer;
   fill: var(--primary-white-color);
 
-
-  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-formatting {
@@ -514,15 +519,18 @@ img {
   cursor: pointer;
 
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(0, 0, 0, 0),
-  0px 0px 0px rgba(0, 0, 0, 0);
+    0px 0px 0px rgba(0, 0, 0, 0);
 
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), background 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.item{
+.item {
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(0, 0, 0, 0),
-  0px 0px 0px rgba(0, 0, 0, 0);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .item-box {
@@ -537,9 +545,9 @@ img {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-a:focus .item{
+a:focus .item {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-  0px 2px 2px rgba(0, 0, 0, 0.12);
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button-portf:hover,
@@ -568,12 +576,12 @@ a:focus .item{
   line-height: 1.88;
 }
 
-.thumb{
+.thumb {
   overflow: hidden;
   position: relative;
 }
 
-.portf-overlay{
+.portf-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -587,12 +595,12 @@ a:focus .item{
   line-height: 1.56;
   font-size: 18px;
   padding: 63px 24px;
- }
+}
 
 .item:hover .portf-overlay,
-a:focus .portf-overlay{
+a:focus .portf-overlay {
   transform: translateY(0);
- }
+}
 
 /* flex */
 .nav-flex,
@@ -613,7 +621,7 @@ a:focus .portf-overlay{
   justify-content: space-between;
 }
 
-.nav-flex{
+.nav-flex {
   align-items: center;
 }
 
