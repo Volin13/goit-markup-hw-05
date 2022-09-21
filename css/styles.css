@@ -588,7 +588,7 @@ img {
   padding: 63px 24px;
  }
 
-.thumb:hover .portf-overlay{
+.item:hover .portf-overlay{
   transform: translateY(0);
  }
 
